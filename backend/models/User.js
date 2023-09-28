@@ -17,10 +17,6 @@ voices:[{
     type:mongoose.Schema.Types.ObjectId,
     ref:'Voice',
 }],
-letters:[{
-    type:mongoose.Schema.Types.ObjectId,
-    ref:'Letter',
-}],
 quotes:[{
 type:mongoose.Schema.Types.ObjectId,
 ref:'Quote',

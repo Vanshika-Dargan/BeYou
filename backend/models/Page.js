@@ -63,4 +63,4 @@ public:{
 
 const Page=mongoose.model('Page',pageSchema);
 
-module.exports=Page;
+export default Page
